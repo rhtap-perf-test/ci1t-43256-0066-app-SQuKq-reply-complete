@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vk51
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0066-tenant/ci1t-43256-0066-app/devfile-sample-vk51@sha256:cda0715d9bd3cc490df3604f35c5842e381611ccdea4cf38df4963b33e66523e
         name: my-nodejs
         ports:
         - containerPort: 3001
